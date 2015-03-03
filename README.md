@@ -20,3 +20,8 @@ opencv demo and extension
      
 + 安装好的lib文件存放在“/usr/local/lib”文件夹，h文件存放在“/usr/local/include”
 
+
+
+# REF
+
++ [Link](http://tilomitra.com/opencv-on-mac-osx/)
