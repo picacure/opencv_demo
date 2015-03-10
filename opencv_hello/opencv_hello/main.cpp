@@ -17,5 +17,6 @@ int main(int argc, char *argv[])
 {
 //    VideoCap(argc, argv);
     
-    Cmain(argc,["13","14","244","2"]);
+    char* a[] ={"13","14","244","2s"};
+    Cmain(argc,a);
 }
