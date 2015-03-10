@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841A8A2C1AAEA42100304117 /* CreateVideo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A8A2B1AAEA42100304117 /* CreateVideo.cpp */; };
+		841A8A2E1AAEA5D100304117 /* VideoCapture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A8A2D1AAEA5D100304117 /* VideoCapture.cpp */; };
 		8472991F1AA5D3DC005793FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8472991E1AA5D3DC005793FB /* main.cpp */; };
 		84E1AA791AA5EFE00085D857 /* libopencv_calib3d.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E1AA261AA5EFE00085D857 /* libopencv_calib3d.3.0.0.dylib */; };
 		84E1AA7A1AA5EFE00085D857 /* libopencv_calib3d.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E1AA271AA5EFE00085D857 /* libopencv_calib3d.3.0.0.dylib */; };
@@ -71,9 +73,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		841A8A2B1AAEA42100304117 /* CreateVideo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreateVideo.cpp; sourceTree = "<group>"; };
+		841A8A2D1AAEA5D100304117 /* VideoCapture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoCapture.cpp; sourceTree = "<group>"; };
 		8472991B1AA5D3DC005793FB /* opencv_hello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv_hello; sourceTree = BUILT_PRODUCTS_DIR; };
 		8472991E1AA5D3DC005793FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		847299251AA5EBE8005793FB /* 66.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 66.jpg; sourceTree = "<group>"; };
+		847299251AA5EBE8005793FB /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
 		84E1AA261AA5EFE00085D857 /* libopencv_calib3d.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.3.0.0.dylib; sourceTree = "<group>"; };
 		84E1AA271AA5EFE00085D857 /* libopencv_calib3d.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.3.0.0.dylib; sourceTree = "<group>"; };
 		84E1AA281AA5EFE00085D857 /* libopencv_calib3d.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.3.0.0.dylib; sourceTree = "<group>"; };
@@ -203,8 +207,10 @@
 		8472991D1AA5D3DC005793FB /* opencv_hello */ = {
 			isa = PBXGroup;
 			children = (
-				847299251AA5EBE8005793FB /* 66.jpg */,
+				847299251AA5EBE8005793FB /* me.jpg */,
 				8472991E1AA5D3DC005793FB /* main.cpp */,
+				841A8A2B1AAEA42100304117 /* CreateVideo.cpp */,
+				841A8A2D1AAEA5D100304117 /* VideoCapture.cpp */,
 			);
 			path = opencv_hello;
 			sourceTree = "<group>";
@@ -321,6 +327,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8472991F1AA5D3DC005793FB /* main.cpp in Sources */,
+				841A8A2C1AAEA42100304117 /* CreateVideo.cpp in Sources */,
+				841A8A2E1AAEA5D100304117 /* VideoCapture.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
